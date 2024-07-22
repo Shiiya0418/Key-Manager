@@ -7,12 +7,6 @@ LINE Messaging API + 公式LINE, Google Apps Scriptを用いて鍵管理運用�
 
 ## LINE Messaging APIについて
 
-参考資料
-
-- [Messaging APIの概要](https://developers.line.biz/ja/docs/messaging-api/overview/)
-
-- [LINE Messaging APIでWebサイト](https://qiita.com/teaparty/items/b48d8ea8496895e2f3d8)
-
 まずは、Messaging APIを使えるようにする
 
 1. [LINE Developers Console](https://developers.line.biz/ja/docs/messaging-api/) にログインする
@@ -73,3 +67,20 @@ LINE Messaging API + 公式LINE, Google Apps Scriptを用いて鍵管理運用�
 |時間ベースのトリガーのタイプを選択|週ベースのタイマー|
 |曜日を選択|毎週土曜日|
 |時刻を選択|午後13時〜14時|
+
+### 動作例
+
+![送信後](docs/img/送信後.png)
+
+![受信](docs/img/メッセージが来る.png)
+
+本来は定期実行されるため朝8時から9時の間に来ます。
+
+### 参考資料
+
+- [Messaging APIの概要](https://developers.line.biz/ja/docs/messaging-api/overview/)
+
+- [LINE Messaging APIでWebサイト](https://qiita.com/teaparty/items/b48d8ea8496895e2f3d8)
+
+- [神戸大学某教授の授業資料](https://www2.kobe-u.ac.jp/~tnishida/programming/GAS-03.html)
+
